@@ -8,9 +8,18 @@
     font-weight: 400;
     font-style: normal;
 
-    display: flex;
+    display: inline-block;
+    text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 10px; 
+    padding-right: 20px;  
+    padding-left: 20px;
+    transform: translate(35.5%);
+     
 }
 .p{
     display: flex;
@@ -31,10 +40,13 @@
     flex-direction:column;
 
 }
+.welcome{
+    border: 10px;
+}
 
   
 html{
-    font-size: 22px;
+    font-size: 35px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -72,3 +84,5 @@ body{
     align-items:center;
     justify-content: center;
 }
+
+
