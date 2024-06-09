@@ -80,5 +80,6 @@ p{
 }
 hr{
     border-style: dashed;
+    border-width: 3px;
 }
 
