@@ -40,6 +40,9 @@ html{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    border-style:groove ;
+    border-color: rgb(158, 13, 255);
+    border-width: 25px;
 }
 h1{
     font-family: "Bangers", system-ui;
@@ -64,7 +67,8 @@ h2{
 body{
     background-image: url(blue_grid.webp);
     background-size: 50%;
-    background-attachment: fixed;
+    background-attachment: scroll;
+    background-blend-mode:overlay;
 }
 .Video{
     border: 10px;
@@ -82,4 +86,25 @@ hr{
     border-style: dashed;
     border-width: 3px;
 }
-
+strong{
+    color: orangered;
+}
+.titles{
+    color: rgb(158, 13, 255);
+}
+:visited{
+    color: grey;
+}
+a{
+    color: rgb(158, 13, 255);
+}
+.center
+{
+ text-align: center;
+ list-style-position: inside;
+}
+ol.center li
+{
+ text-align: left;
+ margin-left: 45%;
+}
