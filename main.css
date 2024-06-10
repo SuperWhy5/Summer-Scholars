@@ -74,9 +74,10 @@ body{
     border: 10px;
     border-color: black;
     border-width: 10px;
-    display: flex;
+    display:flex;
     align-items:center;
-    justify-content: center;
+    justify-content: center;;
+    margin-bottom: 4%;
 }
 p{
     margin: 0%;
@@ -114,4 +115,11 @@ ol.center li
 div{
     margin: 0%;
     padding: 0%;
+}
+tr{
+    color: black;
+    border-style: solid;
+}
+th{
+    border-style: solid;
 }
