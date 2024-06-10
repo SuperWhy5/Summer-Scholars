@@ -85,12 +85,14 @@ p{
 hr{
     border-style: dashed;
     border-width: 3px;
+    color: black;
 }
 strong{
     color: orangered;
 }
 .titles{
     color: rgb(158, 13, 255);
+    
 }
 :visited{
     color: grey;
@@ -105,6 +107,11 @@ a{
 }
 ol.center li
 {
+ line-height: 0%;
  text-align: left;
  margin-left: 45%;
+}
+div{
+    margin: 0%;
+    padding: 0%;
 }
