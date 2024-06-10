@@ -118,8 +118,34 @@ div{
 }
 tr{
     color: black;
-    border-style: solid;
+    border-style: dotted;
+    table-layout: auto;
+    margin: 10%;
+    border-spacing: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 100%;
 }
 th{
-    border-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    
+}
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 10%;
+}
+td{
+   text-align: center;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.plane{
+    width: 600px;
 }
