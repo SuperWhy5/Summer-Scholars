@@ -96,7 +96,7 @@ strong{
     
 }
 :visited{
-    color: grey;
+    color: rgba(128, 128, 128, 0.527);
 }
 a{
     color: rgb(158, 13, 255);
